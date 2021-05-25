@@ -1,0 +1,51 @@
+.app-video-control-pane {
+  display: flex;
+  flex: 0 0 60px;
+  flex-direction: column;
+
+  background: var(--light-gray);
+}
+
+.controls-pane-actions {
+  display: flex;
+}
+
+.control-panel__timestamp {
+  display: flex;
+  padding: var(--md-gutter);
+  background: var(--dark-theme);
+}
+
+.control-panel__timestamp_col {
+  display: flex;
+  flex-direction: column;
+  padding: var(--base-gutter);
+  min-width: 30px;
+  text-align: left;
+  align-content: center;
+}
+
+.control-panel__timestamp__head {
+  font-size: 12px;
+  font-weight: bold;
+  color: lightgrey;
+  margin-bottom: var(--base-gutter);
+  text-align: left;
+}
+
+.control-panel__timestamp__val {
+  font-size: 16px;
+  color: white;
+}
+
+.timestamp_block {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  margin: 0 auto;
+}
+
+.timestamp_duration_block {
+  display: flex;
+  align-items: center;
+}

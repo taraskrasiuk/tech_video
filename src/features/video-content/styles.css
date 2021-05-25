@@ -1,0 +1,41 @@
+.video-content {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 auto;
+  background: var(--dark-theme);
+}
+
+.about-caption-block {
+  display: flex;
+
+  background: var(--light-gray);
+  align-self: center;
+  padding: 0 var(--md-gutter);
+  border-radius: 3px;
+  margin-top: var(--md-gutter);
+}
+
+.about-caption-block > p {
+  margin-right: 20px;
+  min-width: 90px;
+}
+
+.about-caption-block > p:last-child {
+  margin-right: 0;
+}
+
+.about-caption-block > p {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.about-caption-block > p > span:first-child {
+  font-weight: bold;
+}
+
+.about-caption-block > p > span:last-child {
+  margin-left: var(--base-gutter);
+  color: var(--white);
+}
+
